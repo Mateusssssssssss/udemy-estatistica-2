@@ -1,6 +1,9 @@
 # Importação Qui-Quadrado e numpy
 import numpy as np
 from scipy.stats import chi2_contingency
+# Teste é baseado em quantidade de homens e mulheres que assistem e não assistem novelas
+# Primero [19, 6] homens que assistem 19, que não assistem 6
+# Segundo [43 , 32] mulheres que assistem 43, que não assistem 32
 
 # Criação de array com os dados e execução dos testes
 dados = np.array([[19,6], [43,32]])
