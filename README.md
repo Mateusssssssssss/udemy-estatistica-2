@@ -4,7 +4,7 @@
 
 Este repositório contém um exemplo de cálculo estatístico utilizando a distribuição t-Student para determinar a probabilidade de um cientista de dados ganhar menos ou mais de R$ 80,00 por hora.
 
-## 📌 Contexto
+## Contexto
 
 Temos os seguintes dados sobre os salários dos cientistas de dados:
 - **Média amostral** (μ̂): R$ 75,00/hora
@@ -17,7 +17,7 @@ Nosso objetivo é calcular:
 2. A probabilidade de selecionar um cientista de dados cujo salário seja **maior que R$ 80/hora**.
 3. O somatório das duas probabilidades (deve resultar em 1, pois cobre toda a distribuição).
 
-## 🎯 Cálculo do valor t
+## Cálculo do valor t
 
 Para calcular o valor t, utilizamos a seguinte fórmula:
 
@@ -39,7 +39,7 @@ Substituindo os valores:
 
 Assim, temos \( t = 1.5 \) com **graus de liberdade** \( df = n - 1 = 8 \).
 
-## 🔧 Código em Python
+## Código em Python
 
 O código abaixo calcula as probabilidades utilizando a distribuição t-Student:
 
